@@ -1,0 +1,46 @@
+.login-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.form-bottom > a {
+  text-decoration: none;
+  color: #fefefa;
+  font-size: 12px;
+  font-weight: 700;
+}
+.btn-cont {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+.submit-btn {
+  padding: 19px 73px;
+  border: none;
+  border-radius: 12px;
+  background-color: #d0f0c0;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.google-login > a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #252323;
+}
