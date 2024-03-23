@@ -13,11 +13,11 @@ const AuthWrapper = ({ children, page }) => {
       <div className="footer">
         {page === "register" ? (
           <p>
-            Already have an account ? <a href="#">sign in!</a>
+            Already have an account ? <a href="/login">sign in!</a>
           </p>
         ) : (
           <p>
-            Don’t have an account? <a href="#">Sign up!</a>
+            Don’t have an account? <a href="/register">Sign up!</a>
           </p>
         )}
       </div>
