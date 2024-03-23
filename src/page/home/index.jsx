@@ -1,7 +1,11 @@
-import React from "react";
+import MainWarpper from '../../component/layput/MainWrapper/MainWarpper';
 
 const Home = () => {
-  return <div>welcome to mammy market</div>;
+  return (
+    <MainWarpper>
+      <div>welcome to mammy market</div>
+    </MainWarpper>
+  );
 };
 
 export default Home;
