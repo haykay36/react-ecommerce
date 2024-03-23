@@ -34,7 +34,7 @@ const Register = () => {
           />
           <div className="btn-con">
             <button type="submit" className="submit-bt">
-              LOGIN
+              SIGNUP
             </button>
           </div>
         </form>
