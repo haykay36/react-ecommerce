@@ -1,7 +1,7 @@
 .auth-container {
   width: 100%;
   max-width: 90em;
-  height: 100vh;
+  height: auto;
   margin: 0 auto;
   /* background: linear-gradient(#48af70, #d0f0c0); */
   background: linear-gradient(143.93deg, #48af70 9.16%, #d0f0c0 135.55%);
