@@ -4,7 +4,7 @@ import "./register.css";
 
 const Register = () => {
   return (
-    <AuthWrapper>
+    <AuthWrapper page="register">
       <div className="signUp-cont">
         <form>
           <h2>Sign up</h2>
@@ -36,9 +36,6 @@ const Register = () => {
             <button type="submit" className="submit-bt">
               LOGIN
             </button>
-            <div className="sign-in">
-               <a>Already have an account ? sign in</a>
-            </div>
           </div>
         </form>
       </div>
