@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import { CartIcon } from '../../icons/AllIcons';
-import './mainwrapper.css';
+import { CartIcon } from "../../icons/AllIcons";
+import "./mainwrapper.css";
 
 const MainWarpper = ({ children }) => {
   return (
@@ -18,7 +18,7 @@ const MainWarpper = ({ children }) => {
           <a href="/register">Sign up</a>
         </div>
       </div>
-      <div>{children}</div>
+      <div className="main-wrapper-child">{children}</div>
     </div>
   );
 };

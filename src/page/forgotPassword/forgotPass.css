@@ -1,0 +1,44 @@
+.forgotpass-cont {
+  width: 100%;
+}
+
+.forgot-password-form-box {
+  background-color: #fefefa;
+  max-width: 613px;
+  margin: 60px auto;
+  border-radius: 30px;
+  height: auto;
+  min-height: 500px;
+}
+
+.forgot-password > h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  color: #000000;
+  padding: 10px 5px 5px 5px;
+}
+.btn-container {
+  width: 400px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  box-shadow: #00000040;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #cb1d34;
+}
+.continue-btn {
+  display: flex;
+  width: 158px;
+  height: 39px;
+  font-size: 24px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1.5%;
+  line-height: 39.01px;
+  margin: 18px auto;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
