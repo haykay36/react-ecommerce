@@ -3,6 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* height: 90vh; */
+}
+.main-wrapper-child {
+  width: 100%;
+  background: linear-gradient(143.93deg, #48af70 9.16%, #d0f0c0 135.55%);
+  height: auto;
+  min-height: 100vh;
 }
 .main-wrapper-top-bar {
   width: 100%;
