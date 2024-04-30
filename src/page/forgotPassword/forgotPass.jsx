@@ -8,19 +8,21 @@ const ForgotPass = () => {
     <MainWarpper>
       <div className="forgotpass-cont">
         <div className="forgot-password-form-box">
-          <form className="forgot-password">
-            <h1>Forgot Password?</h1>
+          <h1>Forgot Password?</h1>
 
-            <FullyCustomInput
-              type="email"
-              label="Email"
-              htmlFor="Email"
-              style=""
-            />
-            <div className="btn-container">
-              <button type="submit" className="continue-btn">
-                Continue
-              </button>
+          <form className="forgot-password">
+            <div className="box-cont-inner">
+              <FullyCustomInput
+                type="email"
+                label="Email"
+                htmlFor="Email"
+                style=""
+              />
+              <div className="btn-container">
+                <button type="submit" className="continue-btn">
+                  Continue
+                </button>
+              </div>
             </div>
           </form>
         </div>

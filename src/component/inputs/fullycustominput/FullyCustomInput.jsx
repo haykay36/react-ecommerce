@@ -4,8 +4,8 @@ import "./fullycustomInput.css";
 const FullyCustomInput = ({ label, placeholder, htmlFor, type, style }) => {
   return (
     <div className="input-contain">
-      <label htmlFor={htmlFor}>{label}</label>
-      <input type={type} placeholder={placeholder} />
+      <label htmlFor="label">{label}</label>
+      <input className="input-size" type={type} placeholder={placeholder} />
     </div>
   );
 };
